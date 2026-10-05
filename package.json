@@ -1,0 +1,23 @@
+{
+  "name": "shorten-url",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch index.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsx": "^4.23.15"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0",
+    "@types/express": "^5.0.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "neon": "^8.0.8"
+  }
+}
